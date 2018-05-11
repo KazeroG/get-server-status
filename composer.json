@@ -1,0 +1,22 @@
+{
+    "name": "server/manslandlife",
+    "description": "Get status server",
+    "type": "project",
+    "keywords": ["manslandlife", "arma", "server", "RP", "fr"],
+    "homepage": "https://manslandlife.tk/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Support",
+            "email": "support@mansandlife.tk"
+        }
+    ],
+    "support": {
+        "issues": "https://manslandlife.tk/",
+        "source": "https://github.com/KazeroG/get-server-status",
+        "docs": "https://github.com/KazeroG/get-server-status/wiki"
+    },
+    "require": {
+        "austinb/gameq": "^3.0"
+    }
+}
