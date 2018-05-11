@@ -5,7 +5,15 @@ require_once('/vendor/austinb/gameq/src/GameQ/Autoloader.php');
 // Define the servers you wish you query
 $servers = [
 	[
-		'id' => 'AlphaSquad Arma 3',
+		'id' => 'Canada',
+		'type' => 'arma3',
+		'host' => '142.44.143.174:2302',
+		//'options' => [
+		//	'query_port' => 2303
+		//]
+	],
+	[
+		'id' => 'AS',
 		'type' => 'arma3',
 		'host' => '207.182.138.242:2302',
 		'options' => [
@@ -18,7 +26,7 @@ $servers = [
 		'options' => [
 			'query_port' => 10011
 		]
-	],
+	]
 ];
 
 $GameQ = new \GameQ\GameQ(); // or $GameQ = \GameQ\GameQ::factory();
